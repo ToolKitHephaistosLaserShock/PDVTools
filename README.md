@@ -1,5 +1,6 @@
 # PDVTools
 """
+Author : Laurent Berthe (CNR, PIMM)
 Thanks to Gabriel Prudhomme. 
 Étude du nuage de particules éjectées sous choc : apports de la Vélocimétrie Hétérodyne. Mécanique des matériaux [physics.class-ph]. 
 Ecole nationale supérieure d'arts et métiers
@@ -15,7 +16,9 @@ Thanks to M. Betz 09/2015
 https://github.com/michael-betz/readTrc
 
 Base signal for analysis :Tension(Time) from csv file Time,Tension or file comming from .trc binary file from Lecroy 
+ShotTest.zip include one shot extraction and raw datas for your own test
 
+Additionnal def allow elementary calculation to design Shift according to velocity aimed.  
 
 class > PDV(Time,Tension,ChainResponse,PDVShift,PDVFactor,FName,ShotNumber)
     -Raw data : Time Tension
@@ -28,12 +31,14 @@ class > PDV(Time,Tension,ChainResponse,PDVShift,PDVFactor,FName,ShotNumber)
 Directory Structure : 
 Working directory
     -PDVWorking.ipynb
+    -PDVExtractSignalAndAnalysis.ipynb
     |
     --ShotNumberDirectory
-        -RawDatas
+        -RawDatas (file .trc or/and .csv)
         -Graphs 
         -Report
 ******************************
+List of def. 
 def DataLoad(self,LinesSuppressed) load data from .csv file Tension(Time). 
 def ManualBaseLineSupress(self,freq_min,freq_max) - Supress Frequencies (Spectrogramm to Zero) from freq_min,freq_max > self.PDVSpectrogramBaseLine 
 def GraphBaseLine(self) - Graph specrogramm without base line (self.PDVSpectrogramBaseLine ) from ManualBaseLineSupress
