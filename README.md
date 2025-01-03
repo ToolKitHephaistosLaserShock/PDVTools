@@ -1,5 +1,5 @@
 # PDVTools 
-Simple tools for PDV analysis and velocity extraction - dedicated to on target surface measurement.
+Simple tools for PDV analysis and velocity extraction - dedicated to one target surface measurement.
 
 ## Acknowledgements and references
 """
