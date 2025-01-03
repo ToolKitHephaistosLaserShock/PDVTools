@@ -51,15 +51,15 @@ Working directory
 - def GraphBaseLine(self) - Graph specrogramm without base line (self.PDVSpectrogramBaseLine ) from ManualBaseLineSupress
 - def PDVSelectedSignal(self,freq_min,freq_max,time_min,time_max) - Select Spectrogramm from freq_min to freq_max and from time_min to time_max) 
      >self.PDVSpectrogramSelected, self.Time_stftSelected, self.FePDVSelected
-def GraphPDVSelected(self) - Graph selected spectrogram  - self.PDVSpectrogramSelected, self.Time_stftSelected, self.FePDVSelected       
-def PDVSetFrAcquisition(self) - Extract sample rate in GS/s
-def SetPDVFFT(self) - calculate FFT of raw datas :  Tension and related Time
-def GrahPDVSignal(self) - graph raw datas, FFT raw data, 
-def SetSTFTPDV(self,nperseg) - Calculate STFT from raw data on number of point - nperseg
-def GraphSTFTPDV(self) graph STFT
-def SetVelocity(s%matplotlib inlineelf) - calculate velocity m/s
-def GraphSpectrogram(self) - Graph raw data, STFT and velocity spectrogramms
-def PDVReport(self) - pdf report with all datas and graph for basic analysis, datas, FFFT, Spectrogram, baseline.  
-def ExtractVelocityProfile(self) - Manual extraction of velocity profile  - Mouse left = +1 point  - Mouse right = -1 last point - Mouse middle = save&exit
-def ExtractVelocityProfileGraphSave(self)- Draw and graph manual velocity profile
+- def GraphPDVSelected(self) - Graph selected spectrogram  - self.PDVSpectrogramSelected, self.Time_stftSelected, self.FePDVSelected       
+- def PDVSetFrAcquisition(self) - Extract sample rate in GS/s
+- def SetPDVFFT(self) - calculate FFT of raw datas :  Tension and related Time
+- def GrahPDVSignal(self) - graph raw datas, FFT raw data, 
+- def SetSTFTPDV(self,nperseg) - Calculate STFT from raw data on number of point - nperseg
+- def GraphSTFTPDV(self) graph STFT
+- def SetVelocity(s%matplotlib inlineelf) - calculate velocity m/s
+- def GraphSpectrogram(self) - Graph raw data, STFT and velocity spectrogramms
+- def PDVReport(self) - pdf report with all datas and graph for basic analysis, datas, FFFT, Spectrogram, baseline.  
+- def ExtractVelocityProfile(self) - Manual extraction of velocity profile  - Mouse left = +1 point  - Mouse right = -1 last point - Mouse middle = save&exit
+- def ExtractVelocityProfileGraphSave(self)- Draw and graph manual velocity profile
 """
