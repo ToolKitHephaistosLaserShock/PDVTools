@@ -25,7 +25,7 @@ ShotTest.zip include one shot extraction and raw datas for your own test
 # Design PDV 
 Additionnal def allow elementary calculation to design Shift according to velocity aimed.  
 
-# Strcuture description
+# Structure and Files Description
 class > PDV(Time,Tension,ChainResponse,PDVShift,PDVFactor,FName,ShotNumber)
     -Raw data : Time Tension
     -Chains response (GHz)
@@ -36,15 +36,15 @@ class > PDV(Time,Tension,ChainResponse,PDVShift,PDVFactor,FName,ShotNumber)
 *************************************************************
 Directory Structure : 
 Working directory
-    -PDVWorking.ipynb
-    -PDVExtractSignalAndAnalysis.ipynb
+    -PDVWorking.ipynb (Example of use for ShotTest files
+    -PDVExtractSignalAndAnalysis.ipynb (Functions including .trc extraction)
     |
     --ShotNumberDirectory
         -RawDatas (file .trc or/and .csv)
         -Graphs 
         -Report
 ******************************
-# List of function
+# Functions
 
 - def DataLoad(self,LinesSuppressed) load data from .csv file Tension(Time). 
 - def ManualBaseLineSupress(self,freq_min,freq_max) - Supress Frequencies (Spectrogramm to Zero) from freq_min,freq_max > self.PDVSpectrogramBaseLine 
