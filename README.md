@@ -1,4 +1,7 @@
-# PDVTools
+# PDVTools 
+Simple tools for PDV analysis and velocity extraction - dedicated to on target surface measurement.
+
+## Acknowledgements and references
 """
 Author : Laurent Berthe (CNR, PIMM)
 Thanks to Gabriel Prudhomme. 
@@ -15,11 +18,14 @@ This is the file format used by LeCroy oscilloscopes.
 Thanks to M. Betz 09/2015
 https://github.com/michael-betz/readTrc
 
+# Files
 Base signal for analysis :Tension(Time) from csv file Time,Tension or file comming from .trc binary file from Lecroy 
 ShotTest.zip include one shot extraction and raw datas for your own test
 
+# Design PDV 
 Additionnal def allow elementary calculation to design Shift according to velocity aimed.  
 
+# Strcuture description
 class > PDV(Time,Tension,ChainResponse,PDVShift,PDVFactor,FName,ShotNumber)
     -Raw data : Time Tension
     -Chains response (GHz)
@@ -38,7 +44,8 @@ Working directory
         -Graphs 
         -Report
 ******************************
-List of def. 
+# List of function
+
 def DataLoad(self,LinesSuppressed) load data from .csv file Tension(Time). 
 def ManualBaseLineSupress(self,freq_min,freq_max) - Supress Frequencies (Spectrogramm to Zero) from freq_min,freq_max > self.PDVSpectrogramBaseLine 
 def GraphBaseLine(self) - Graph specrogramm without base line (self.PDVSpectrogramBaseLine ) from ManualBaseLineSupress
