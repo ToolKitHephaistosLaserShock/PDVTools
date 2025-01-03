@@ -3,19 +3,20 @@ Simple tools for PDV analysis and velocity extraction - dedicated to one target 
 
 ## Acknowledgements and references
 """
-Author : Laurent Berthe (CNR, PIMM)
-Thanks to Gabriel Prudhomme. 
+-Author : Laurent Berthe (CNR, PIMM)
+
+-Thanks to Gabriel Prudhomme. 
 Étude du nuage de particules éjectées sous choc : apports de la Vélocimétrie Hétérodyne. Mécanique des matériaux [physics.class-ph]. 
 Ecole nationale supérieure d'arts et métiers
 ENSAM, 2014. 
 Français. ⟨NNT : 2014ENAM0044⟩. ⟨tel-01165754⟩
 https://pastel.hal.science/tel-01165754
 
-Thanks to : 
+- Thanks to :
+M. Betz 09/2015
 https://github.com/michael-betz/readTrc
 Little helper class to load data from a .trc binary file.
 This is the file format used by LeCroy oscilloscopes.
-Thanks to M. Betz 09/2015
 https://github.com/michael-betz/readTrc
 
 # Files
