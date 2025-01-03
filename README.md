@@ -1,9 +1,9 @@
 # PDVTools 
 Simple tools for PDV analysis and velocity extraction - dedicated to one target surface measurement.
 
-## Acknowledgements and references
-"""
--Author : Laurent Berthe (CNR, PIMM)
+# Acknowledgements and references
+
+##Author : Laurent Berthe (CNR, PIMM)
 
 -Thanks to Gabriel Prudhomme. 
 Étude du nuage de particules éjectées sous choc : apports de la Vélocimétrie Hétérodyne. Mécanique des matériaux [physics.class-ph]. 
