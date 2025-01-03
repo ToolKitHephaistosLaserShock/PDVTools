@@ -46,10 +46,10 @@ Working directory
 ******************************
 # List of function
 
-def DataLoad(self,LinesSuppressed) load data from .csv file Tension(Time). 
-def ManualBaseLineSupress(self,freq_min,freq_max) - Supress Frequencies (Spectrogramm to Zero) from freq_min,freq_max > self.PDVSpectrogramBaseLine 
-def GraphBaseLine(self) - Graph specrogramm without base line (self.PDVSpectrogramBaseLine ) from ManualBaseLineSupress
-def PDVSelectedSignal(self,freq_min,freq_max,time_min,time_max) - Select Spectrogramm from freq_min to freq_max and from time_min to time_max) 
+- def DataLoad(self,LinesSuppressed) load data from .csv file Tension(Time). 
+- def ManualBaseLineSupress(self,freq_min,freq_max) - Supress Frequencies (Spectrogramm to Zero) from freq_min,freq_max > self.PDVSpectrogramBaseLine 
+- def GraphBaseLine(self) - Graph specrogramm without base line (self.PDVSpectrogramBaseLine ) from ManualBaseLineSupress
+- def PDVSelectedSignal(self,freq_min,freq_max,time_min,time_max) - Select Spectrogramm from freq_min to freq_max and from time_min to time_max) 
      >self.PDVSpectrogramSelected, self.Time_stftSelected, self.FePDVSelected
 def GraphPDVSelected(self) - Graph selected spectrogram  - self.PDVSpectrogramSelected, self.Time_stftSelected, self.FePDVSelected       
 def PDVSetFrAcquisition(self) - Extract sample rate in GS/s
