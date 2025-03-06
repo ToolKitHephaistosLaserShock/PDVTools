@@ -3,7 +3,7 @@ Simple tools for PDV analysis and velocity extraction - dedicated to one target 
 
 # Acknowledgements and references
 
-## Author : Laurent Berthe (CNR, PIMM)
+## Author : Laurent Berthe (CNRS, PIMM)
 
 -Thanks to Gabriel Prudhomme. 
 
